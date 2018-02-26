@@ -20,7 +20,7 @@ There are 3 main files:
 
 + A file contains Q-learning agents for Gridworld, Crawler and Pacman, **qlearningAgents.py**.
 
-+ A file with different values of discounting factor and noise factor to see the effect of changing them of the behaviour on the agent,   **analysis.py**.
++ A file with different values of discounting factor and noise factor to see the effect of changing them on the behaviour of the agent,   **analysis.py**.
 
 
 # Installation & Dependencies
