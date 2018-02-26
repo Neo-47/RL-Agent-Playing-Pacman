@@ -8,6 +8,7 @@
 	python gridworld.py -g MazeGrid
 
 
+
 3- To load the valueIterationAgent which will compute a policy and execute it 10 times. Press a key to cycle through values, Q-values, and the simulation:
 
 	python gridworld.py -a value -i 100 -k 10
