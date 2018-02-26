@@ -1,4 +1,4 @@
-# A-Reinforcement-Learning-Agent-Playing-The-Game-of-Pacman
+# A-Reinforcement-Learning-Agent-Playing-Pacman
 
 ![pacman](https://user-images.githubusercontent.com/19307995/36691106-ee85eb2c-1b3c-11e8-886f-462adba3231c.png)
 
