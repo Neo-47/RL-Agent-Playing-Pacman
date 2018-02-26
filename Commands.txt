@@ -1,0 +1,49 @@
+1- To run a grid world in manual control, and see the agent deals with stochasticity of the environment: 
+
+	python gridworld.py -m
+
+
+2- To see the agent move randomly:
+
+	python gridworld.py -g MazeGrid
+
+
+3- To load the valueIterationAgent which will compute a policy and execute it 10 times. Press a key to cycle through values, Q-values, and the simulation:
+
+	python gridworld.py -a value -i 100 -k 10
+
+4- Bridge crossing agent:
+
+	python gridworld.py -a value -i 100 -g BridgeGrid --discount 0.9 	 --noise 0.2
+
+
+5- To run the Q-learning agent on the grid world:
+
+	python gridworld.py -a q -k 5 -m
+
+6- To run the Q-learning agent after adding epsilon greedy algorithm i.e. adding exploration:
+
+	python gridworld.py -a q -k 100 
+
+7- To apply the Q-learning agent to the simulated robot controller(crawler):
+
+	python crawler.py
+
+8- Finally to apply Q-learning agent to the game of Pacman:
+
+	python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid 
+
+9- If you want to watch 10 training games to see what's going on use:
+
+	python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10
+
+10- To try the approximate Q-learning agent use:
+	python pacman.py -p ApproximateQAgent -x 2000 -n 2010 -l smallGrid 
+
+
+11- Even much larger layouts should be no problem for the approximate Q-learning agent:
+
+	python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumClassic 
+
+
+
