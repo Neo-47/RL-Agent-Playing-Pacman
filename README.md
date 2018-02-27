@@ -14,11 +14,22 @@ The project is one of 5 projects offered in [Berkeley's cs188 intro to AI.](http
 
 # Table of contents
 
-There are 3 main files:
+There are 8 main files:
 
 + A file contains a value iteration agent for solving known MDPs, **valueIterationAgents.py**.
 
 + A file contains Q-learning agents for Gridworld, Crawler and Pacman, **qlearningAgents.py**.
+
++ A file defines methods on general MDPs, **mdp.py**.
+
++ A file that defines the base classes ValueEstimationAgent and QLearningAgent, which the agents will extend, **learningAgents.py**.
+
++ A file contains the Gridworld implementation, **gridworld.py**.
+
++ A file that contains classes for extracting features on (state,action) pairs. Used for the approximate Q-learning agent (in qlearningAgents.py), **featureExtractors.py**.
+
++ A file that contains utilities, including util.Counter, which is particularly useful for Q-learners, **util.py**.
+
 
 + A file with different values of discounting factor and noise factor to see the effect of changing them on the behaviour of the agent,   **analysis.py**.
 
