@@ -9,8 +9,6 @@ represented using **Markov Decision Processes**, and the agent acts in the envir
 that it plays and wins nearly each single game. There is a basic simulation for robot controller (Crawler), where I applied the same learning algorithms to the crawler.
 
 
-The project is one of 5 projects offered in [Berkeley's cs188 intro to AI.](http://ai.berkeley.edu/home.html)
-
 
 ## Table of contents
 
